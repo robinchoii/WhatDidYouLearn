@@ -1,10 +1,10 @@
 # Setting up React Router
 
->create-react-app
->npm install react-router-dom --save
->npm install
->npm start
->go to localhost:3000
+> create-react-app
+> npm install react-router-dom --save
+> npm install
+> npm start
+> go to localhost:3000
 
 ## App.js
 >import { BrowserRouter, Route } from 'react-router-dom';
