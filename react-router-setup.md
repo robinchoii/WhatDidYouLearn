@@ -39,6 +39,20 @@ Renders only About @ localhost:3000/about
 </BrowserRouter>
 ```
 
+Navigation will render on every page
+```javascript
+<BrowserRouter>
+  <div>
+    <Navigation />
+    <Switch>
+        <Route path='/' component={Home} exact />
+        <Route path='/about' component={About} />
+        <Route path='/contact' component={Contact} />
+        <Route component={Error} />
+    </Switch>
+  </div>
+</BrowserRouter>
+```
 
 ### Create folder called components inside 'src'
 add files - Home, About, Contact, Navigation
